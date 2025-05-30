@@ -5,7 +5,7 @@ import { useState } from "react"
 const Images = () => {
   const [isVisible, setIsVisible] = useState(false)
   const { scrollYProgress } = useScroll()
-  const y = useTransform(scrollYProgress, [0, 1], [0, 200])
+  const y = useTransform(scrollYProgress, [0, 1], [0, 400])
   const y2 = useTransform(scrollYProgress, [0, 1], [0, -400])
   const y3 = useTransform(scrollYProgress, [0, 1], [0, -200])
 
